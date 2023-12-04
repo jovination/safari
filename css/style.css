@@ -124,6 +124,7 @@ body{
 }
 
 .cont-2{
+    position: relative;
     background-image: url(../images/bg.jpg);
     background-size: 510px;
     background-repeat: no-repeat;
@@ -167,6 +168,32 @@ body{
     justify-content: center;
     align-items: center;
 
+}
+.extented-ui-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    height: 270px;
+    position: absolute;
+    top: -60px;
+    right: 390px;
+
+}
+.card-1{
+    width: 208px;
+    height: 125px;
+    background: #F9F7F8;
+    box-shadow: 1px 2px 20px 1px rgba(0, 0, 0, 0.10);
+    border-radius: 15px;
+}
+.card-2{
+    width: 250px;
+    height: 120px;
+    background: #F9F7F8;
+    box-shadow: 1px 2px 20px 1px rgba(0, 0, 0, 0.10);
+    border-radius: 15px;
 }
 .button{
     margin-top: 15px;
