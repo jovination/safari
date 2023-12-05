@@ -321,7 +321,6 @@ a span{
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    background: gray;
 }
 .kenya-wrapper,.tanzania-wrapper,.uganda-wrapper{
     width: 100%;
@@ -466,9 +465,20 @@ a span{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
 }
 
 .explore-icon{
     width: 25px;
     height: 25px;
+}
+.extended-card{
+    width: 190px;
+    height: 125px;
+    background: #F9F7F8;
+    box-shadow: 1px 2px 20px 1px rgba(0, 0, 0, 0.10);
+    border-radius: 15px;
+    position: relative;
+    top: 22px;
+    right: -22px;
 }
