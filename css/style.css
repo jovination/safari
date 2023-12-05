@@ -450,6 +450,7 @@ a span{
     background-repeat: no-repeat;
     background-position: left center;
     background-size: cover;
+    position: relative;
 }
 .icon-section{
     width: 100%;
@@ -574,4 +575,14 @@ a span{
     align-items: center;
     justify-content: space-between;
 
+}
+.extended-card-1{
+    width: 240px;
+    height: 150px;
+    background: #F9F7F8;
+    box-shadow: 1px 2px 20px 1px rgba(0, 0, 0, 0.10);
+    border-radius: 15px;
+    position: absolute;
+    top: 20px;
+    right: 110px;
 }
