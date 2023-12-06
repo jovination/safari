@@ -712,6 +712,11 @@ a span{
     background: #F9F7F8;
     box-shadow: 1px 2px 20px 1px rgba(0, 0, 0, 0.10);
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
 }
 .card-ui-2{
     width: 100%;
@@ -729,4 +734,46 @@ a span{
     color: #066c18;
     text-decoration: none;
     
+}
+
+.norway-flag,.france-flag{
+    width: 34px;
+    height: 34px;
+    background: gray;
+    border-radius: 50%;
+}
+.container-wrap-1,.container-wrap-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.norway-flag{
+    background-image: url(../images/norway.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 8px 70px 1px rgba(0, 0, 0, 0.30);
+}
+.france-flag{
+    background-image: url(../images/france.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 8px 70px 1px rgba(0, 0, 0, 0.30);
+}
+.f-wrap{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.f-wrap p{
+    font-size: 14px;
+    font-weight: 600;
 }
