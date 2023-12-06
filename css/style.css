@@ -695,3 +695,38 @@ a span{
     background-size: cover;
     position: relative;
 }
+.extended-card-card-3{
+    width: 210px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 320px;
+    right: 228px
+}
+.card-ui-0{
+    width: 100%;
+    height: 120px;
+    background: #F9F7F8;
+    box-shadow: 1px 2px 20px 1px rgba(0, 0, 0, 0.10);
+    border-radius: 15px;
+}
+.card-ui-2{
+    width: 100%;
+    height: 35px;
+    background: #4EEC7D;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-ui-2 a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #066c18;
+    text-decoration: none;
+    
+}
