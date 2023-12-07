@@ -71,7 +71,7 @@ body{
         border-radius: 4px;
     }
 .section-one{
-    margin-top: 30px;
+    margin-top: 50px;
     width: 100%;
     height: 550px;
     display: flex;
@@ -360,7 +360,7 @@ a span{
     background-size: cover;
 }
 .f-section{
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 40px;
     width: 100%;
     height: 420px;
@@ -368,7 +368,7 @@ a span{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
 }
 .f-section h1{
     width: 475px;
