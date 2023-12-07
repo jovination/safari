@@ -777,3 +777,11 @@ a span{
     font-size: 14px;
     font-weight: 600;
 }
+.pin-icon{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    transform: scaleX(-1);
+    top: -14px;
+    right: -14px;
+}
