@@ -789,15 +789,32 @@ a span{
     width: 1100px;
     height: 310px;
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    flex-direction: row;
     gap: 30px;
+    
 }
 
 .feature-01, .feature-02, .feature-03{
     width: 290px;
     height: 310px;
+    padding: 20px;
     background: #F9F7F8;
     border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.10);
+}
+.f-four h1{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.f-four p{
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
 }
