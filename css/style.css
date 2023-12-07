@@ -787,6 +787,17 @@ a span{
 }
 .f-four{
     width: 1100px;
-    height: 320px;
+    height: 310px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
 
+.feature-01, .feature-02, .feature-03{
+    width: 290px;
+    height: 310px;
+    background: #F9F7F8;
+    border-radius: 30px;
 }
