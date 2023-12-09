@@ -847,6 +847,7 @@ a span{
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     gap: 20px;
 }
@@ -858,3 +859,55 @@ a span{
     width: 30px;
     height: 30px;
 }
+.f-five{
+    width: 1100px;
+    height: 310px;
+    overflow: hidden;
+}
+.arrow-01{
+    width: 80px;
+    height: 80px;
+}
+
+.slider-wrapper h1{
+    display: block;
+    margin: 0;
+    font-size: 70px;
+    font-weight: 500;  
+}
+
+.slider-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 30px;
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    
+    -moz-animation: my-animation 15s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 15s linear infinite;
+    
+  }
+   /* for Chrome */
+   @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(100%); }
+    to { -webkit-transform: translateX(-100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+    to {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+  
+  }
