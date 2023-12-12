@@ -939,7 +939,7 @@ a span{
     width: 330px;
     height: 200px;
     background: #F9F7F8;
-    border-radius: 30px;
+    border-radius: 24px;
    
 
 }
@@ -974,4 +974,22 @@ a span{
     border-radius: 4px;
     box-shadow: 1px 2px 20px 1px rgba(0, 0, 0, 0.10);
 
+}
+.blog-fp-1{
+    background-image: url(../images/p1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.blog-fp-2{
+    background-image: url(../images/p2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.blog-fp-3{
+    background-image: url(../images/p3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
