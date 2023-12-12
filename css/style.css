@@ -911,10 +911,23 @@ a span{
     }
   
   }
-.section-two{
+.section-three{
     margin-top: 100px;
     width: 1100px;
     height: 642px;
     background: #E6EAE8;
     border-radius: 30px;
+}
+.blog-wrapper{
+    width: 1100px;
+    height: 642px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.blog-post-wrapper{
+    width: 330px;
+    height: 400px;
+    background: grey;
 }
