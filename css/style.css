@@ -919,11 +919,12 @@ a span{
     border-radius: 30px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 30px;
 }
 .blog-wrapper{
     width: 1100px;
-    height: 642px;
+    height: 420px;
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -954,8 +955,9 @@ a span{
 
     
 }
-.blog-wrapper h1{
-    font-size: 20px;
+.blog-ht-h1{
+    margin-left: 25px;
+    font-size: 40px;
     font-weight: 500;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -964,17 +966,26 @@ a span{
     text-decoration: none;
     font-size: 15px;
     font-weight: 500;
-    background: #f9f7f8;
-    color: black;
+    background: #4EEC7D;
+    color: #066c18;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 110px;
     height: 40px;
     border-radius: 4px;
-    box-shadow: 1px 2px 20px 1px rgba(0, 0, 0, 0.10);
 
 }
+.blog-wrapper h1{
+    width: 100%;
+    height: 100px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
 .blog-fp-1{
     background-image: url(../images/p1.jpg);
     background-repeat: no-repeat;
