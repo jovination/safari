@@ -31,4 +31,8 @@ git clone https://github.com/jovination/safari.git
 cd safari
 open index.html
 ````
+<h2>Project Purpose</h2>
+<p>This project is intended to demonstrate my coding abilities by applying my design skills into practical websites. As a software developer, I'm using HTML, CSS, and JavaScript to turn my Safari vision into a real-world road trip planning and tracking experience. Through this venture, I hope to improve my coding skills and create an entertaining and user-friendly website.</p>
+<h2>Contributing</h2>
+<p>I appreciate any contributions! Because this project is still in development, if you have suggestions for new features, enhancements, or uncover issues, feel free to open an issue or submit a pull request. Let's make road trips with Safari even better together.</p>
 
