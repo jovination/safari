@@ -277,6 +277,14 @@ body::-webkit-scrollbar-thumb {
     height: 50px;
     padding: 2px   10px;
     border-radius: 4px;
+    cursor: pointer;
+
+
+    &:hover .right-arrow{
+        transform: translateX(5px);
+        transition-duration: .3s;
+    
+    }
 
 
 }
