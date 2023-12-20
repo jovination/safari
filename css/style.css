@@ -1109,11 +1109,34 @@ a span{
 .price-option{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 10px;
     align-items: center;
     width: 200px;
     height: 55px;
-    padding: 0px 20px;
+    padding: 0px 6px;
     border-radius: 30px;
     background: #E6EAE8;
 }
+
+
+.monthly-price,
+.yearly-price{
+    font-size: 14px;
+    width: 95px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    border-radius: 30px;
+}
+
+.active-link,
+.yearly-price:hover{
+    background: #161815;
+    color: #fff;
+    border-radius: 30px;
+    transition-duration: .3s;
+}
+
+
