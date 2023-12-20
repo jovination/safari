@@ -1132,11 +1132,12 @@ a span{
     cursor: pointer;
 }
 
-.active-link{
+.active{
     background: #161815;
     color: #fff;
     border-radius: 30px;
     transition-duration: .3s;
 }
+
 
 
