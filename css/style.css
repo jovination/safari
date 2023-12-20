@@ -1115,7 +1115,7 @@ a span{
     height: 55px;
     padding: 0px 6px;
     border-radius: 30px;
-    background: #E6EAE8;
+    background: #e5e5e5;
 }
 
 
@@ -1129,10 +1129,10 @@ a span{
     align-items: center;
     color: #000;
     border-radius: 30px;
+    cursor: pointer;
 }
 
-.active-link,
-.yearly-price:hover{
+.active-link{
     background: #161815;
     color: #fff;
     border-radius: 30px;
