@@ -1266,6 +1266,11 @@ li p{
     flex-direction: column;
     gap: 108px;
 }
+.lower-wrap-01{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
 .feature-list{
     display: flex;
     flex-direction: column;
