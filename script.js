@@ -16,3 +16,15 @@ document.addEventListener('DOMContentLoaded', function () {
       yearlyOp.classList.add('active');
   };
 });
+
+//container package when clicked
+function priceContainer(price__container){
+  var containers = document.querySelectorAll('.price__container');
+  containers.forEach(function (c) {
+    c.classList.remove('clicked');
+  });
+
+  // Add 'clicked' class to the clicked container
+  price__container.classList.add('clicked');
+}
+

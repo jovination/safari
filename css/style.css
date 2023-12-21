@@ -1100,11 +1100,20 @@ a span{
     flex-direction: row;
     gap: 30px;
 }
-.price-container{
+.price__container{
     width: 416px;
     height: 648px;
     border: 1.8px solid #dbdbdb;
     border-radius: 36px;
+}
+/*
+.price__container:hover{
+    border: 1.8px solid #7cffa3;
+    transition-duration: .3s;
+}
+*/
+.clicked{
+    border: 1.8px solid #4EEC7D !important;
 }
 .price-option{
     display: flex;
