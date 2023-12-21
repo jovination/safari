@@ -1139,5 +1139,46 @@ a span{
     transition-duration: .3s;
 }
 
+.btn-wrapper{
+    width: 340px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-wrapper a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    background: #4EEC7D;
+    color: #066c18;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+.liner{
+    width: 334px;
+    height: 1.5px;
+    background: #dbdbdb;
+}
+.starter-label{
+    width: 60px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    border-radius: 4px;
+    background: #e5e5e5;
+    font-weight: 500;
+    color: #000;
+
+
+}
+
+
 
 

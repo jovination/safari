@@ -355,12 +355,41 @@
         <div class="pricing-box-section">
             <div class="price-option">
                 <span id="monthly" class="monthly-price active">Monthly</span>
-                <span id="yearly" class="yearly-price">Yearly</span>
+                <span id="yearly" class="yearly-price">Annualy</span>
             </div>
 
             <div class="price-wrapper">
-                <div class="price-container starter"></div>
-                <div class="price-container premier"></div>
+                <div class="price-container starter">
+                    <div class="upper-wrap">
+                    <span class="starter-label">
+                        Starter
+                    </span>
+                    <div class="price-tag-wrapper">
+                        <span class="price-tag">$</span>
+                        <span class="price-amount">0</span>
+                        <span class="price-duration">/mo</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                     <div class="liner"></div>
+                     <div class="lower-wrap">
+                        <div class="feature-list">
+                            <ul>
+                                <li>Feature 1</li>
+                                <li>Feature 2</li>
+                                <li>Feature 3</li>
+                                <li>Feature 4</li>
+                            </ul>
+                        </div>
+                        <div class="btn-wrapper">
+                            <a href="#">Get started</a>
+                        </div>
+                     </div>
+    
+                </div>
+                <div class="price-container premier">
+                    
+</div>
             </div>
         </div>
 
@@ -370,6 +399,35 @@
         <footer></footer>
     </div>
     <script src="script.js"></script>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        // You can also pass an optional settings object
+        // below listed default settings
+        AOS.init({
+            // Global settings:
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+            initClassName: 'aos-init', // class applied after initialization
+            animatedClassName: 'aos-animate', // class applied on animation
+            useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+            disableMutationObserver: false // disables automatic mutations' detections (advanced)
+        });
+    </script>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+        </main>
+        <footer></footer>
+    </div>
+    <script src="script.js"></script>
+    
     <script src="https://unpkg.com/aos@next/dist/aos.js">
         AOS.init();
 
