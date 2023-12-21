@@ -1139,6 +1139,20 @@ a span{
     transition-duration: .3s;
 }
 
+.starter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.upper-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+    justify-content: start;
+}
+
 .btn-wrapper{
     width: 340px;
     height: 50px;
@@ -1175,10 +1189,48 @@ a span{
     background: #e5e5e5;
     font-weight: 500;
     color: #000;
-
-
 }
 
-
-
+.price-tag-wrapper{
+    width: 100%;
+    height: 50px;
+    justify-content: start;
+    align-items: center;
+}
+.price-tag,
+.price-amount{
+    font-size: 36px;
+    font-weight: 500;
+}
+.price-duration{
+    font-size: 22px;
+    font-weight: 400;
+}
+.upper-wrap p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+li img{
+    width: 20px;
+    height: 20px;
+}
+li p{
+    font-size: 14px;
+    margin: 0;
+}
 
