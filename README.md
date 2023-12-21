@@ -4,6 +4,11 @@
 
 <h2>Overview</h2>
 <p>Safari is apart of my personal project where I exercise and showcase my design skills by transforming them into a fully functional website through coding. Safari is envisioned as a road trip planner and tracker, built with HTML, CSS, and JavaScript. Safari isn't just a project; it's like your best buddy for road trips. It does smart trip planning, tracks your route in real-time, suggests cool spots with AI, and connects you with a bunch of fellow road trippers. It's made for solo adventurers, families exploring, or groups of friends on a mission to discover new places. Safari is all about making your road trip awesome, mixing design, coding, and practical features to ensure you have a blast.</p>
+
+<h2>Preview</h2>
+🔗 <a href = "https://safari-trip-planner.pages.dev/">
+<span>Safari Live Demo</span> 
+</a>
 <h2>Key Features</h2>
 
 ![safari-02](https://github.com/jovination/safari/assets/79380563/03a4a78a-25cd-40e6-9d47-729c954ee794)
@@ -17,6 +22,8 @@
 <h2>Blog section</h2>
 
 ![safari-05](https://github.com/jovination/safari/assets/79380563/c841aed1-9d46-4bfd-aeb7-cb191457c87e)
+
+![safari-06](https://github.com/jovination/safari/assets/79380563/8a6fbe10-eb21-43a0-a846-56e062edfbc6)
 
 <h2>Getting Started</h2>
 <h4>1. Clone the Repository:</h4>
