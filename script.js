@@ -25,19 +25,27 @@ document.addEventListener('DOMContentLoaded', function () {
 function showMonthlyPlans() {
   document.querySelectorAll('.monthly-plan').forEach(plan => {
       plan.style.display = 'block';
+      plan.style.opacity = '1';
+
   });
   document.querySelectorAll('.yearly-plan').forEach(plan => {
     plan.style.display = 'none';
+    plan.style.opacity = '0';
+
 });
 }
 
 function showYearlyPlans() {
   document.querySelectorAll('.monthly-plan').forEach(plan => {
       plan.style.display = 'none';
+      plan.style.opacity = '0';
+
   });
 
   document.querySelectorAll('.yearly-plan').forEach(plan => {
       plan.style.display = 'block';
+      plan.style.opacity = '1';
+
   });
 }
 
