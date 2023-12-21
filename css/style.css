@@ -1106,15 +1106,15 @@ a span{
     border: 1.8px solid #dbdbdb;
     border-radius: 36px;
 }
-/*
 .price__container:hover{
     border: 1.8px solid #7cffa3;
     transition-duration: .3s;
 }
-*/
+
 .clicked{
     border: 1.8px solid #4EEC7D !important;
 }
+
 .price-option{
     display: flex;
     flex-direction: row;
@@ -1202,7 +1202,7 @@ a span{
     color: #000;
 }
 .premier-label{
-    width: 75px;
+    width: 80px;
     height: 25px;
     padding: 4px;
     display: flex;
