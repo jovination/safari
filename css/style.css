@@ -1296,3 +1296,8 @@ li p{
     width: 550px;
     height: 100%;
 }
+.s__right-col h1{
+    margin: 0;
+    font-size: 32px;
+    font-weight: 500;
+}
