@@ -1107,7 +1107,7 @@ a span{
     border-radius: 36px;
 }
 .price__container:hover{
-    border: 1.8px solid #7cffa3;
+    border: 1px solid #a3ffbf;
     transition-duration: .3s;
 }
 
