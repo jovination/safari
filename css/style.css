@@ -1295,9 +1295,30 @@ li p{
 .s__right-col{
     width: 550px;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 .s__right-col h1{
     margin: 0;
     font-size: 32px;
     font-weight: 500;
+}
+.faqs__container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.faqs__items h1{
+    font-size: 22px;
+    margin: 0;
+    font-weight: 400;
+
+}
+.faqs__content p{
+    font-size: 14px;
+    margin: 0;
 }
