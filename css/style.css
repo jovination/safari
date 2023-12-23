@@ -1319,6 +1319,21 @@ li p{
 
 }
 .faqs__content p{
-    font-size: 14px;
+    font-size: 15px;
     margin: 0;
+}
+.faqs__title{
+    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.faqs__title + .faqs__content{
+    display: none;
+}
+
+.faqs__title.is__open + .faqs__content{
+    display: block;
 }

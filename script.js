@@ -63,3 +63,21 @@ function priceContainer(price__container){
   price__container.classList.add('clicked');
 }
 
+//FAQS accordion
+const faqs__titles = document.querySelectorAll('.faqs__title');
+
+faqs__titles.forEach ((faqs__title) => {
+  faqs__title.addEventListener('click', () => {
+
+    if(faqs__title.classList.contains('is__open')){
+      faqs__title.classList.remove('is__open');
+    }
+    else{
+      const faqs__title__is__open = document.querySelectorAll('.is__open');
+      faqs__title__is__open.forEach((faqs__title__is__open) => {
+        faqs__title__is__open.classList.remove('is__open');
+      });
+      faqs__title.classList.add('is__open');
+    }
+  })
+})
