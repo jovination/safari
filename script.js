@@ -50,8 +50,6 @@ function showYearlyPlans() {
 }
 
 
-
-
 //container package when clicked
 function priceContainer(price__container){
   var containers = document.querySelectorAll('.price__container');
