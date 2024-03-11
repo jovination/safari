@@ -62,20 +62,20 @@ function priceContainer(price__container){
 }
 
 //FAQS accordion
-const faqs__titles = document.querySelectorAll('.faqs__title');
+const faq__header = document.querySelectorAll('.faq__header');
 
-faqs__titles.forEach ((faqs__title) => {
-  faqs__title.addEventListener('click', () => {
+faq__header.forEach ((faq__header) => {
+  faq__header.addEventListener('click', () => {
 
-    if(faqs__title.classList.contains('is__open')){
-      faqs__title.classList.remove('is__open');
+    if(faq__header.classList.contains('is__open')){
+      faq__header.classList.remove('is__open');
     }
     else{
-      const faqs__title__is__open = document.querySelectorAll('.is__open');
-      faqs__title__is__open.forEach((faqs__title__is__open) => {
-        faqs__title__is__open.classList.remove('is__open');
+      const faq__header__is__open = document.querySelectorAll('.is__open');
+      faq__header__is__open.forEach((faq__header__is__open) => {
+        faq__header__is__open.classList.remove('is__open');
       });
-      faqs__title.classList.add('is__open');
+      faq__header.classList.add('is__open');
     }
   })
 })
