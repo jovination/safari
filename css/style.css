@@ -1102,7 +1102,7 @@ a span{
 }
 .price__container{
     width: 416px;
-    height: 648px;
+    height: 630px;
     border: 1.8px solid #dbdbdb;
     border-radius: 36px;
 }
@@ -1330,6 +1330,10 @@ li p{
     font-weight: 500;
 
 }
+.faqs__content{
+    width: 100%;
+    height: 30px;
+}
 .faqs__content p{
     font-size: 15px;
     transition: all 0.2s linear;
@@ -1342,6 +1346,7 @@ li p{
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
+
 }
 
 .faq__header + .faqs__content{
@@ -1363,4 +1368,9 @@ li p{
 }
 .fa{
     font-size: 12px;
+}
+.section-six{
+    width: 100%;
+    height: 350px;
+    background: #4EEC7D;
 }

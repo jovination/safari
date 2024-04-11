@@ -1,4 +1,4 @@
-new SimpleBar(document.querySelector('.wrapper'));
+//new SimpleBar(document.querySelector('.wrapper'));
 
 //pricing -option
 
