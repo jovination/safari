@@ -1374,6 +1374,9 @@ li p{
     width: 100%;
     height: 350px;
     background: #4EEC7D;
+    display: flex;
+    border-radius: 30px;
+    align-items: center;
 }
 
 .btn-2{
@@ -1381,4 +1384,14 @@ li p{
 }
 .btn-2 a{
     text-decoration: none;
+}
+.six-h1{
+    font-weight: 500;
+    font-size: 40px;
+}
+.s_six_col{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    gap: 20px;
 }
